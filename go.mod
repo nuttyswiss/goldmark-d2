@@ -1,9 +1,9 @@
 module github.com/nuttyswiss/goldmark-d2
 
-go 1.19
+go 1.23
 
 require (
-	cdr.dev/slog v1.4.2 // indirect; https://github.com/terrastruct/d2/issues/1524
+	cdr.dev/slog v1.4.2 // https://github.com/terrastruct/d2/issues/1524
 	github.com/google/go-cmp v0.6.0
 	github.com/yuin/goldmark v1.6.0
 	oss.terrastruct.com/d2 v0.6.3
